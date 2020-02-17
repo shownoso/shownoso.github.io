@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Travis CI | Shownoso</title>
+    <meta name="description" content="Shownoso的博客">
+    <meta name="generator" content="VuePress 1.3.0">
+    <link rel="icon" href="/hero.ico">
+    
+    <link rel="preload" href="/assets/css/0.styles.d38c349a.css" as="style"><link rel="preload" href="/assets/js/app.e913a68d.js" as="script"><link rel="preload" href="/assets/js/2.54e35052.js" as="script"><link rel="preload" href="/assets/js/8.5cc46980.js" as="script"><link rel="prefetch" href="/assets/js/10.ca521701.js"><link rel="prefetch" href="/assets/js/3.cd8bd8b0.js"><link rel="prefetch" href="/assets/js/4.c63d11f5.js"><link rel="prefetch" href="/assets/js/5.22dcfff1.js"><link rel="prefetch" href="/assets/js/6.be084430.js"><link rel="prefetch" href="/assets/js/7.b4df426e.js"><link rel="prefetch" href="/assets/js/9.f4327e53.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.d38c349a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Shownoso</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blog/" class="nav-link router-link-active">
+  博客
+</a></div> <a href="https://github.com/shownoso" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/blog/" class="nav-link router-link-active">
+  博客
+</a></div> <a href="https://github.com/shownoso" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>开始都是大杂烩</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blog/Travis_CI.html" class="active sidebar-link">Travis CI</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/Travis_CI.html#准备工作" class="sidebar-link">准备工作</a></li><li class="sidebar-sub-header"><a href="/blog/Travis_CI.html#配置文件" class="sidebar-link">配置文件</a></li><li class="sidebar-sub-header"><a href="/blog/Travis_CI.html#加密与安全" class="sidebar-link">加密与安全</a></li><li class="sidebar-sub-header"><a href="/blog/Travis_CI.html#" class="sidebar-link"></a></li></ul></li><li><a href="/blog/SSH_Login.html" class="sidebar-link">SSH 免密登陆</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="travis-ci"><a href="#travis-ci" class="header-anchor">#</a> Travis CI</h1> <p>一个提供持续集成服务，用于测试和部署的自动化的工具。</p> <h2 id="准备工作"><a href="#准备工作" class="header-anchor">#</a> 准备工作</h2> <ol><li>进入<a href="https://www.travis-ci.org/" target="_blank" rel="noopener noreferrer">官方网站<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>，使用 github 账号登录。</li> <li>选择需要同步到 Travis 的 github 仓库，Travis 将根据配置监听它们并执行任务。</li> <li>选择一个仓库，在 settings（More options） 面板中进行项目配置：
+<ul><li>General：选择触发任务的时机，比如勾选 Build pushed branches 表示推送时触发构建</li> <li>Environment Variables：设置执行任务时的环境变量</li></ul></li></ol> <h2 id="配置文件"><a href="#配置文件" class="header-anchor">#</a> 配置文件</h2> <p>在项目根目录下创建 <code>.travis.yml</code>，通过该配置文件告知 travis 需要执行的具体任务流程。以下是一个 github pages <a href="https://docs.travis-ci.com/user/deployment/" target="_blank" rel="noopener noreferrer">快捷部署<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>的参考配置：</p> <div class="language-yml line-numbers-mode"><pre class="language-yml"><code><span class="token key atrule">language</span><span class="token punctuation">:</span> node_js
+<span class="token key atrule">node_js</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> lts/*
+<span class="token key atrule">install</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> npm install 
+<span class="token key atrule">script</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> npm run docs<span class="token punctuation">:</span>build
+<span class="token key atrule">deploy</span><span class="token punctuation">:</span>
+  <span class="token key atrule">provider</span><span class="token punctuation">:</span> pages <span class="token comment"># 部署到 github pages， 会自动创建 gh-pages 分支</span>
+  <span class="token key atrule">skip_cleanup</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">local_dir</span><span class="token punctuation">:</span> docs/.vuepress/dist <span class="token comment"># 需要推送的本地目录</span>
+  <span class="token key atrule">target-branch</span><span class="token punctuation">:</span> master <span class="token comment"># 推送的目标仓库分支</span>
+  <span class="token key atrule">repo</span><span class="token punctuation">:</span> shownoso/shownoso.github.io <span class="token comment"># 推送的目标仓库</span>
+  <span class="token key atrule">github_token</span><span class="token punctuation">:</span> $GITHUB_TOKEN <span class="token comment"># 用于允许 Travis 向你的仓库推送代码。在 GitHub 中生成，在 Travis 的项目设置页面进行配置</span>
+  <span class="token key atrule">keep_history</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">on</span><span class="token punctuation">:</span>
+    <span class="token key atrule">branch</span><span class="token punctuation">:</span> master <span class="token comment"># 本地项目的master分支</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><h3 id="github-token"><a href="#github-token" class="header-anchor">#</a> github_token</h3> <p>为了完成 <code>deploy</code> 任务，Travis 需要获得一些必要权限，用于代码拉取、推送等操作，因此，在 github 配置一个 <code>Personal access token</code>。</p> <ul><li>在 github 主页点击个人头像，进入 Settings-Developer -&gt; settings -&gt; Personal access tokens 面板，点击 Generate new token 选择需要的权限并生成新的 token。</li> <li>复制这个 token，回到 Travis 项目配置页，在 Environment Variables 中添加一个环境变量 <code>GITHUB_TOKEN</code>，值为该 token。该环境变量将在 Travis 执行任务时生效。</li></ul> <h3 id="travis-任务的生命周期"><a href="#travis-任务的生命周期" class="header-anchor">#</a> Travis 任务的生命周期</h3> <ol><li>before_install 安装依赖前</li> <li>install 安装依赖时</li> <li>before_script 执行脚本前</li> <li>script 执行脚本时</li> <li>after_success 或 after_failure 执行脚本成功（失败）后</li> <li>before_deploy 部署前</li> <li>deploy 部署时</li> <li>after_deploy 部署后</li> <li>after_script 执行脚本后</li></ol> <h3 id="大致如此"><a href="#大致如此" class="header-anchor">#</a> 大致如此</h3> <ul><li>将 github 中的 test 项目同步到 Travis CI，当满足触发自动构建的条件时，Travis 将根据 test 项目根目录下的 <code>.travis.yml</code> 执行任务。</li> <li>需要格外注意的是服务器的访问权限，因此对于远程服务器需要配置<a href="/blog/SSH_Login.html">免密登录</a>。</li></ul> <h2 id="加密与安全"><a href="#加密与安全" class="header-anchor">#</a> 加密与安全</h2> <ol><li>加密一段文本<br>
+在 Environment Variables 中配置了环境变量 <code>GITHUB_TOKEN</code>，它的值在 Travis 网站是明文保存的，可以使用 <code>travis encrypt</code> 对其进行加密。</li></ol> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 安装 travis</span>
+gem <span class="token function">install</span> travis
+
+<span class="token comment"># GITHUB_TOKEN： 环境变量名； token：github中配置的`Personal access token`</span>
+<span class="token comment"># 将得到一串加密的文本</span>
+<span class="token comment"># --add 将输出自动添加到当前目录的 `.travis.yml`</span>
+travis encrypt <span class="token assign-left variable">GITHUB_TOKEN</span><span class="token operator">=</span>token --add
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><p>在 <code>.travis.yml</code> 使用加密文本</p> <div class="language-yml line-numbers-mode"><pre class="language-yml"><code><span class="token key atrule">env</span><span class="token punctuation">:</span>
+  <span class="token key atrule">global</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span> <span class="token key atrule">secure</span><span class="token punctuation">:</span> <span class="token string">&quot;加密文本&quot;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><ol start="2"><li>加密一个文件<br>
+例如，当希望 Travis 免密登录服务器时，可以使用 <code>travis encrypt-file</code> 对服务器的私钥进行加密</li></ol> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 这将在根目录创建 id_rsa.enc</span>
+<span class="token comment"># travis 会给出提示 </span>
+<span class="token comment"># 将私钥加密后的 id_rsa.enc 提交到仓库而不是将私钥 id_rsa 本身提交到仓库</span>
+<span class="token comment"># --add 将输出自动添加到当前目录的 `.travis.yml` -&gt; before_install</span>
+travis encrypt-file ~/.ssh/id_rsa --add
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h2 id=""><a href="#" class="header-anchor">#</a></h2></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">最后更新:</span> <span class="time">2/17/2020, 11:15:39 AM</span></div></footer> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/blog/SSH_Login.html">
+        SSH 免密登陆
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.e913a68d.js" defer></script><script src="/assets/js/2.54e35052.js" defer></script><script src="/assets/js/8.5cc46980.js" defer></script>
+  </body>
+</html>
